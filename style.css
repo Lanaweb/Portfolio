@@ -1,0 +1,132 @@
+/* {
+    outline: 3px dotted red;
+*/
+p{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+body{
+    margin:0px;
+    font-family: sans-serif;
+    width: 1120px;
+    margin: 0 auto;    
+}
+.header{
+    background-color:#F6F6F6;
+    padding: 0px 10px; 
+}
+.name{
+    width: 50%;
+    display: inline-block;
+    text-align: left;
+    font-style:italic;
+}
+.statement{
+    width: 49%;
+    display: inline-block;
+    text-align: right;
+}
+.main{
+    background-color:#624D57;
+    padding: 20px;
+}
+.upper{
+    width: 100%;
+    text-align: left;
+    margin-bottom: 20px;
+}
+.picture{
+    width: 48%;
+    display: inline-block;
+    margin-right: 1.5%;
+    border: 4px lightgrey solid;
+
+}
+.about{
+    width: 49%;
+    background-color:#F9F6F9;
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    text-align: left;
+    min-height: 349px;
+    padding: 1px;
+}
+
+.content {
+    display: inline-block;
+    padding:10px;
+    min-height: 290px;
+}
+
+.content a{
+    color:black;
+}
+.lower{
+    width: 100%;
+}
+.project {
+    width: 32.06%;
+    background-color: #F9F6F9;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 1.5%;
+}
+.project:last-child{
+    margin-right: 0%;
+}
+.projpicture {
+    width:100%;
+}
+.smallimagies{
+    padding: 3%;
+}
+.smallimagies img{
+    width:12%;
+    margin:2%;
+}
+.projectheader{
+    background-color: #918F9B;
+    color: white;  
+    font-weight: bold;
+    padding:10px;
+}
+.technologies{
+    background-color: #918F9B;
+    color: white;  
+    font-weight: bold;
+    padding:10px;
+    font-size: 0.9rem;
+}
+.actions {
+    text-align: center;
+}
+.button {
+    padding: 10px;
+    background-color: #407D61;
+    border-radius: 15px;
+    color: white;
+    display: inline-block;
+    margin-bottom: 1rem;
+}
+.footer{
+    background-color:#F6F6F6;
+    text-align: center;
+    padding: 5px;
+}
+.contacts{
+    width: 100%;
+    margin-bottom: 1rem;
+
+}
+.social{
+    width: 100%;
+} 
+
+.social img{
+    width:16px;
+}
+.social a{
+    color:black;
+    font-style:italic;
+}
